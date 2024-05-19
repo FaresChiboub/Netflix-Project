@@ -10,12 +10,12 @@ import { toast } from "react-toastify";
 // TODO: Add SDKs for Firebase products that you want to use
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDZfxebt3-A7G9kAU9ROOFqRB4TACCjy6E",
-  authDomain: "netflix-clone-34555.firebaseapp.com",
-  projectId: "netflix-clone-34555",
-  storageBucket: "netflix-clone-34555.appspot.com",
-  messagingSenderId: "1084291377084",
-  appId: "1:1084291377084:web:437fd033a4659b2f08edb9",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
@@ -36,14 +36,12 @@ const signup = async (name, email, password) => {
   } catch (error) {
     console.log(error);
     toast.error(
-        error.code
-          .split("/")[1]
-          .split('-')
-          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ')
-      );
-
-
+      error.code
+        .split("/")[1]
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ")
+    );
   }
 };
 const login = async (email, password) => {
@@ -52,12 +50,12 @@ const login = async (email, password) => {
   } catch (error) {
     console.log(error);
     toast.error(
-        error.code
-          .split("/")[1]
-          .split('-')
-          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ')
-      );
+      error.code
+        .split("/")[1]
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ")
+    );
   }
 };
 const logout = async () => {
