@@ -1,23 +1,23 @@
-# Netflix Clone
+🎬 # Netflix Clone
 
-This is a Netflix clone built using Vite and Firebase. It replicates the basic functionality and design of the popular streaming service Netflix.
+📺 This is a Netflix clone built using Vite and Firebase. It replicates the basic functionality and design of the popular streaming service Netflix.
 
-## Features
+🚀 ## Features
 
-- Authentication: Users can sign up, log in, and log out securely using Firebase Authentication.
-- Browse Content: Users can browse through a selection of movies and TV shows.
-- Watch Trailer: Users can watch trailers of movies and TV shows.
-- Responsive Design: The application is responsive and works well on different screen sizes.
+- **Authentication**: Users can sign up, log in, and log out securely using Firebase Authentication.
+- **Browse Content**: Users can browse through a selection of movies and TV shows.
+- **Watch Trailer**: Users can watch trailers of movies and TV shows.
+- **Responsive Design**: The application is responsive and works well on different screen sizes.
 
-## Technologies Used
+💻 ## Technologies Used
 
-- Vite: A fast development server and bundler for modern web development.
-- Firebase: A platform developed by Google for creating mobile and web applications.
-  - Firebase Authentication: For user authentication.
-  - Firebase Firestore: For storing and managing data.
-  - Firebase Storage: For storing media files such as movie posters and trailer videos.
+- **Vite**: A fast development server and bundler for modern web development.
+- **Firebase**: A platform developed by Google for creating mobile and web applications.
+  - **Firebase Authentication**: For user authentication.
+  - **Firebase Firestore**: For storing and managing data.
+  - **Firebase Storage**: For storing media files such as movie posters and trailer videos.
 
-## Setup
+🛠️ ## Setup
 
 1. Clone the repository:
 git clone <repository-url>
