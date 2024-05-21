@@ -5,15 +5,15 @@
 .banner-img {
   width: 100%;
   overflow: hidden;
-  mask-image: linear-gradient(to right, transparent, black 60%);
-  -webkit-mask-image: linear-gradient(to right, transparent, black 60%);
+  mask-image: linear-gradient(to right, transparent,black 55%);
+  -webkit-mask-image: linear-gradient(to right, transparent,black 55%);
 }
 
 .hero-caption {
   position: absolute;
   width: 100%;
   padding-left: 6%;
-  bottom: 0;
+  bottom: -50px;
 }
 
 .caption-img {
