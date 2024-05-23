@@ -4,7 +4,7 @@
 
 ## 🚀 Deployment
 
-🌐 The server is live on Netlify: [Netflix Clone Site](https://netflixclonefirebaseapp.netlify.app)
+🌐 The server is live on Vercel: [Netflix Clone Site](netflix-project-sage.vercel.app)
 
 ## ✨ Features
 
